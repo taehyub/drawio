@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T09:44:25.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="AHq-OgugsISST_xSS0Rb" version="15.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T10:05:14.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ubvB2_8CJeqwbU1teWAj" version="15.5.2" type="github" pages="3">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -490,7 +490,7 @@
         <mxCell id="tIO1V5dycYtAL5jPJEJw-0" />
         <mxCell id="tIO1V5dycYtAL5jPJEJw-1" parent="tIO1V5dycYtAL5jPJEJw-0" />
         <mxCell id="t72WjN4Ue7CYekPZnNeC-0" value="Dali::Control" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
-          <mxGeometry y="-26" width="310" height="112" as="geometry" />
+          <mxGeometry y="-30" width="310" height="112" as="geometry" />
         </mxCell>
         <mxCell id="t72WjN4Ue7CYekPZnNeC-1" value="+ DragEventSignalType: Signal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t72WjN4Ue7CYekPZnNeC-0">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
@@ -524,8 +524,14 @@
         <mxCell id="iphwGR25oYoML_QsJE-s-1" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="26" width="400" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-2" value="StartDragAndDrop(view:Window, thumbnail:Image, data:val):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
+        <mxCell id="iphwGR25oYoML_QsJE-s-2" value="StartDragAndDrop(view:View, shadow:ImageBuilder, data:val):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="34" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gdzw3-_X6pWyNPWsUb6d-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;" edge="1" parent="iphwGR25oYoML_QsJE-s-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-70" y="57" as="sourcePoint" />
+            <mxPoint y="57" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iphwGR25oYoML_QsJE-s-3" value="AddDragListener(view:Window, onDrag:Delegate):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="60" width="400" height="26" as="geometry" />
