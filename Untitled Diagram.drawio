@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T10:59:37.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="rExyO92COiX0TlCSU5OG" version="15.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-14T11:20:48.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="v5ygfXyTy6c9VV5p-wWk" version="15.5.2" type="github" pages="3">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="2370" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -485,14 +485,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_6iPgpR_HZU0NHuQo2-e" name="Page-3">
-    <mxGraphModel dx="2500" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tIO1V5dycYtAL5jPJEJw-0" />
         <mxCell id="tIO1V5dycYtAL5jPJEJw-1" parent="tIO1V5dycYtAL5jPJEJw-0" />
         <mxCell id="t72WjN4Ue7CYekPZnNeC-0" value="Dali::Control" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
           <mxGeometry x="-20" y="-30" width="340" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="t72WjN4Ue7CYekPZnNeC-1" value="+ DragEventSignalType: Signal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t72WjN4Ue7CYekPZnNeC-0">
+        <mxCell id="t72WjN4Ue7CYekPZnNeC-1" value="+ mDragEventSignal:DragEventSignalType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t72WjN4Ue7CYekPZnNeC-0">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="t72WjN4Ue7CYekPZnNeC-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="t72WjN4Ue7CYekPZnNeC-0">
@@ -505,7 +505,7 @@
           <mxGeometry y="86" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0cpA0o_LES-B31bdclnn-2" value="NUI::View" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
-          <mxGeometry x="-5" y="-212" width="310" height="86" as="geometry" />
+          <mxGeometry x="-10" y="-220" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="0cpA0o_LES-B31bdclnn-3" value="+ Dragged: EventHandler&lt;DragEventArgs&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0cpA0o_LES-B31bdclnn-2">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
@@ -514,20 +514,20 @@
           <mxGeometry y="52" width="310" height="8" as="geometry" />
         </mxCell>
         <mxCell id="0cpA0o_LES-B31bdclnn-5" value="+ startDragAndDrop(shadow:ImageBuilder): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0cpA0o_LES-B31bdclnn-2">
-          <mxGeometry y="60" width="310" height="26" as="geometry" />
+          <mxGeometry y="60" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iphwGR25oYoML_QsJE-s-0" value="Adaptor::DragAndDrop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
           <mxGeometry x="380" y="-30" width="400" height="138" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-6" value="mDragSignal:DragSignalType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
+        <mxCell id="iphwGR25oYoML_QsJE-s-6" value="+ mDragEventSignal:DragEventSignalType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="26" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iphwGR25oYoML_QsJE-s-1" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="52" width="400" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-2" value="StartDragAndDrop(dragView:View, shadowImage:View, data:val):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
+        <mxCell id="iphwGR25oYoML_QsJE-s-2" value="+ StartDragAndDrop(dragView:View, shadowImage:View, data:val):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="60" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gdzw3-_X6pWyNPWsUb6d-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;exitX=1;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="iphwGR25oYoML_QsJE-s-0" source="t72WjN4Ue7CYekPZnNeC-2">
@@ -536,11 +536,8 @@
             <mxPoint y="57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-3" value="AddDragListener(view:Window, onDrag:Delegate):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
+        <mxCell id="iphwGR25oYoML_QsJE-s-3" value="DragEventSignal():;DragEventSignalType&amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
           <mxGeometry y="86" width="400" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-4" value="ExcuteBuffered(type:bool, event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-0">
-          <mxGeometry y="112" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iphwGR25oYoML_QsJE-s-5" value="DragAndDrop-Impl" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
           <mxGeometry x="410" y="140" width="340" height="164" as="geometry">
@@ -556,11 +553,14 @@
         <mxCell id="iphwGR25oYoML_QsJE-s-9" value="AddDropTarget():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-5">
           <mxGeometry y="60" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-10" value="ExcuteSend(event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-5">
+        <mxCell id="iphwGR25oYoML_QsJE-s-4" value="ExcuteBuffered(type:bool, event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-5">
           <mxGeometry y="86" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-11" value="ExcuteReceive(event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-5">
+        <mxCell id="iphwGR25oYoML_QsJE-s-10" value="ExcuteSend(event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-5">
           <mxGeometry y="112" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iphwGR25oYoML_QsJE-s-11" value="ExcuteReceive(event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="iphwGR25oYoML_QsJE-s-5">
+          <mxGeometry y="138" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iphwGR25oYoML_QsJE-s-12" value="WindowBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
           <mxGeometry x="1217" y="-126" width="303" height="242" as="geometry">
@@ -760,6 +760,12 @@
         </mxCell>
         <mxCell id="iphwGR25oYoML_QsJE-s-67" value="&lt;h1&gt;start drag&lt;/h1&gt;&lt;div&gt;ex)&lt;/div&gt;&lt;div&gt;longpress-&amp;gt;&lt;/div&gt;&lt;div&gt;button.startDragAndDrop(image, data)&lt;/div&gt;&lt;div&gt;longpress-&amp;gt;&lt;/div&gt;&lt;div&gt;view.startDragAndDrop(image, data);&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="tIO1V5dycYtAL5jPJEJw-1">
           <mxGeometry x="414" y="-950" width="400" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fPMF2D6L2DTJ9ver66zG-0" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;entryX=0.482;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.496;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="tIO1V5dycYtAL5jPJEJw-1" source="0cpA0o_LES-B31bdclnn-5" target="t72WjN4Ue7CYekPZnNeC-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="-100" as="sourcePoint" />
+            <mxPoint x="180" y="-100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
