@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T01:29:04.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="L41Fsrfn527Quh8gC7xT" version="15.5.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-15T01:29:38.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="T2GnnTq0hZBP6YgXi3yM" version="15.5.2" type="github" pages="3">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -562,7 +562,7 @@
         <mxCell id="iphwGR25oYoML_QsJE-s-11" value="ExcuteReceive(event:void*):char*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" parent="iphwGR25oYoML_QsJE-s-5" vertex="1">
           <mxGeometry y="138" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-12" value="WindowBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="tIO1V5dycYtAL5jPJEJw-1" vertex="1">
+        <mxCell id="iphwGR25oYoML_QsJE-s-12" value="Adaptor::WindowBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="tIO1V5dycYtAL5jPJEJw-1" vertex="1">
           <mxGeometry x="1217" y="-126" width="303" height="242" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -594,7 +594,7 @@
         <mxCell id="iphwGR25oYoML_QsJE-s-21" value="AddDragListener():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" parent="iphwGR25oYoML_QsJE-s-12" vertex="1">
           <mxGeometry y="216" width="303" height="26" as="geometry" />
         </mxCell>
-        <object label="WindowBaseEcoreWl2&#xa;" id="iphwGR25oYoML_QsJE-s-22">
+        <object label="Adaptor::WindowBaseEcoreWl2&#xa;" id="iphwGR25oYoML_QsJE-s-22">
           <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="tIO1V5dycYtAL5jPJEJw-1" vertex="1">
             <mxGeometry x="1187" y="149" width="363" height="214" as="geometry">
               <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
@@ -659,7 +659,7 @@
             <mxPoint x="1110" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iphwGR25oYoML_QsJE-s-39" value="EventHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="tIO1V5dycYtAL5jPJEJw-1" vertex="1">
+        <mxCell id="iphwGR25oYoML_QsJE-s-39" value="Adaptor::EventHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="tIO1V5dycYtAL5jPJEJw-1" vertex="1">
           <mxGeometry x="450" y="-280" width="260" height="194" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
