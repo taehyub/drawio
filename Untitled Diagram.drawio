@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T10:01:43.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="lS0Ow8Tv90GXQkUaGawQ" version="15.5.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-18T10:02:34.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="6FKd5Tz2YeGAgwk27kVV" version="15.5.4" type="github" pages="5">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="1673" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1294,8 +1294,8 @@
         <mxCell id="6YKzOTl9P3CfOU9wAM6E-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Register Wayland Callback&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;ECORE_WL2_EVENT_DATA_SOURCE_SEND&lt;br&gt;&lt;/p&gt;&lt;p&gt;ECORE_WL2_EVENT_SELECTION_DATA_READY&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="FfPjCiqimM6jpJcd0mm--1">
           <mxGeometry x="750" y="173" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yoWpyBn8LqB9aJBj0gsm-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Register Window Signals&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;OnSelectionDataSend()&lt;/p&gt;&lt;p&gt;OnSelectionDataReceive()&lt;/p&gt;&lt;p&gt;OnDragMotionSignal()&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="FfPjCiqimM6jpJcd0mm--1">
-          <mxGeometry x="473" y="358" width="227" height="192" as="geometry" />
+        <mxCell id="yoWpyBn8LqB9aJBj0gsm-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Register Window Signals&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;OnSelectionDataSend()&lt;/p&gt;&lt;p&gt;OnSelectionDataReceive()&lt;/p&gt;&lt;p&gt;OnDragMotionSignal()&lt;/p&gt;&lt;p&gt;OnDragEnterSignal()&lt;/p&gt;&lt;p&gt;OnDragLeaveSignal()&lt;/p&gt;&lt;p&gt;OnDragDropSignal()&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="FfPjCiqimM6jpJcd0mm--1">
+          <mxGeometry x="473" y="340" width="227" height="202" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
