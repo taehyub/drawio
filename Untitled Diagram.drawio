@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T07:40:34.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="VFbuDgjeBabDlubb7j9t" version="15.5.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-10-19T07:41:06.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Fyk1S2G9bESNyCB-PgPw" version="15.5.5" type="github" pages="7">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1392,6 +1392,9 @@
         <mxCell id="vkF3qjcQ9zQp8gLtt8YO-7" value="Toolkit::Control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vkF3qjcQ9zQp8gLtt8YO-1">
           <mxGeometry x="140" y="40" width="110" height="840" as="geometry" />
         </mxCell>
+        <mxCell id="aG0e2sORqrPdClKUCMkD-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vkF3qjcQ9zQp8gLtt8YO-7">
+          <mxGeometry x="50" y="110" width="10" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="vkF3qjcQ9zQp8gLtt8YO-9" value="Adaptor::DragAndDrop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vkF3qjcQ9zQp8gLtt8YO-1">
           <mxGeometry x="260" y="40" width="130" height="840" as="geometry" />
         </mxCell>
@@ -1412,6 +1415,17 @@
         </mxCell>
         <mxCell id="vkF3qjcQ9zQp8gLtt8YO-27" value="WindowServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vkF3qjcQ9zQp8gLtt8YO-1">
           <mxGeometry x="1070" y="40" width="90" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="aG0e2sORqrPdClKUCMkD-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="aG0e2sORqrPdClKUCMkD-8" parent="vkF3qjcQ9zQp8gLtt8YO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aG0e2sORqrPdClKUCMkD-9" value="StartDragAndDrop(shadowImage, data)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="aG0e2sORqrPdClKUCMkD-8" parent="vkF3qjcQ9zQp8gLtt8YO-1" source="aG0e2sORqrPdClKUCMkD-6">
+          <mxGeometry x="0.2727" y="10" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
