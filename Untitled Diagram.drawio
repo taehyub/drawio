@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T09:13:02.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="L0EWIE0EMRoZLOYev2aT" version="15.5.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-10-20T09:13:18.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="5ehStBPqkQjCJ0hlvIhk" version="15.5.5" type="github" pages="9">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -993,7 +993,7 @@
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-45" value="Adaptor::Window-Impl&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="gJOb4CzfP0SEEc4JvwBN-1" vertex="1">
-          <mxGeometry x="910" y="-48" width="260" height="112" as="geometry">
+          <mxGeometry x="910" y="-61" width="260" height="112" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1006,7 +1006,7 @@
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-48" value="InitDragListener():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" parent="gJOb4CzfP0SEEc4JvwBN-45" vertex="1">
           <mxGeometry y="60" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vEXqw5NKvORK8mdEpF5z-0" value="DropDataGet():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="gJOb4CzfP0SEEc4JvwBN-45">
+        <mxCell id="vEXqw5NKvORK8mdEpF5z-0" value="StartDragAndDrop(dragWindow:Any):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" vertex="1" parent="gJOb4CzfP0SEEc4JvwBN-45">
           <mxGeometry y="86" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="gJOb4CzfP0SEEc4JvwBN-1" source="gJOb4CzfP0SEEc4JvwBN-43" target="gJOb4CzfP0SEEc4JvwBN-45" edge="1">
@@ -1090,7 +1090,7 @@
             <mxPoint x="900" y="-100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gJOb4CzfP0SEEc4JvwBN-67" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.011;entryY=0.873;entryDx=0;entryDy=0;exitX=1;exitY=0.154;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="gJOb4CzfP0SEEc4JvwBN-1" target="gJOb4CzfP0SEEc4JvwBN-47" edge="1">
+        <mxCell id="gJOb4CzfP0SEEc4JvwBN-67" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.019;entryY=0.846;entryDx=0;entryDy=0;exitX=1;exitY=0.154;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="gJOb4CzfP0SEEc4JvwBN-1" target="gJOb4CzfP0SEEc4JvwBN-48" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="780" y="278.0039999999999" as="sourcePoint" />
             <mxPoint x="920" y="10" as="targetPoint" />
