@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T10:49:54.482Z" agent="5.0 (X11)" etag="itIjl3IQNK_B5P4MHrK6" version="15.6.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-11-03T10:50:24.111Z" agent="5.0 (X11)" etag="IGypLAeTf5VtikwdK57B" version="15.6.5" type="github" pages="10">
   <diagram id="zfIJ7cC01_5IxrYZ_f-n" name="Page-1">
     <mxGraphModel dx="1422" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -873,21 +873,21 @@
           <mxGeometry y="64" width="398" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-11" value="Adaptor::DragAndDrop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=default;" parent="gJOb4CzfP0SEEc4JvwBN-1" vertex="1">
-          <mxGeometry x="380" y="7" width="400" height="142" as="geometry">
+          <mxGeometry x="350" y="7" width="460" height="142" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HTTFs_efFx683VI1q_5i-1" value="+ mDragEventSignal:DragEventSignalType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;" parent="gJOb4CzfP0SEEc4JvwBN-11" vertex="1">
-          <mxGeometry y="26" width="400" height="26" as="geometry" />
+          <mxGeometry y="26" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-13" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gJOb4CzfP0SEEc4JvwBN-11" vertex="1">
-          <mxGeometry y="52" width="400" height="8" as="geometry" />
+          <mxGeometry y="52" width="460" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-14" value="+ StartDragAndDrop(dragView:Actor, shadowImage:Actor, data:val):void" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;pointerEvents=0;fontColor=default;" parent="gJOb4CzfP0SEEc4JvwBN-11" vertex="1">
-          <mxGeometry y="60" width="400" height="26" as="geometry" />
+          <mxGeometry y="60" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fjzaywwmAvurlmL-yyL5-5" value=" + AddListener(targetView: Actor, listener: delegate): void" style="text;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" parent="gJOb4CzfP0SEEc4JvwBN-11" vertex="1">
-          <mxGeometry y="86" width="400" height="30" as="geometry" />
+        <mxCell id="fjzaywwmAvurlmL-yyL5-5" value=" + AddListener(targetView: Actor, listener: DragAndDropFunction): void" style="text;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=default;" parent="gJOb4CzfP0SEEc4JvwBN-11" vertex="1">
+          <mxGeometry y="86" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-17" value="Adaptor::DragAndDrop-Impl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="gJOb4CzfP0SEEc4JvwBN-1" vertex="1">
           <mxGeometry x="380" y="190" width="400" height="218" as="geometry">
@@ -1102,13 +1102,13 @@
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-73" value="DROP" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gJOb4CzfP0SEEc4JvwBN-69" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gJOb4CzfP0SEEc4JvwBN-75" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="gJOb4CzfP0SEEc4JvwBN-1" target="gJOb4CzfP0SEEc4JvwBN-11" edge="1">
+        <mxCell id="gJOb4CzfP0SEEc4JvwBN-75" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;strokeColor=default;labelBackgroundColor=default;fontColor=default;" parent="gJOb4CzfP0SEEc4JvwBN-1" target="gJOb4CzfP0SEEc4JvwBN-11" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="71" y="-60" as="sourcePoint" />
             <mxPoint x="139.87999999999965" y="51.124000000000024" as="targetPoint" />
             <Array as="points">
               <mxPoint x="71" y="-20" />
-              <mxPoint x="480" y="-20" />
+              <mxPoint x="465" y="-20" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1127,9 +1127,9 @@
         <mxCell id="gJOb4CzfP0SEEc4JvwBN-80" value="+ GetData() : val" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gJOb4CzfP0SEEc4JvwBN-76" vertex="1">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gJOb4CzfP0SEEc4JvwBN-81" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;" parent="gJOb4CzfP0SEEc4JvwBN-1" target="gJOb4CzfP0SEEc4JvwBN-78" edge="1">
+        <mxCell id="gJOb4CzfP0SEEc4JvwBN-81" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" parent="gJOb4CzfP0SEEc4JvwBN-1" target="gJOb4CzfP0SEEc4JvwBN-78" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="380" y="76" as="sourcePoint" />
+            <mxPoint x="350" y="76" as="sourcePoint" />
             <mxPoint x="483.8800000000001" y="22.920000000000073" as="targetPoint" />
           </mxGeometry>
         </mxCell>
